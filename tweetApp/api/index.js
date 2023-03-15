@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
 //database connection 
-const DATABASE_URI = "mongodb+srv://app-test:apptest1234@cluster0.yguzzzc.mongodb.net/mypostingapp?retryWrites=true&w=majority"
+const DATABASE_URI = "mongodb+srv://<>:<>@cluster0.yguzzzc.mongodb.net/mypostingapp?retryWrites=true&w=majority"
 const mongoose = require('mongoose');
 
     
